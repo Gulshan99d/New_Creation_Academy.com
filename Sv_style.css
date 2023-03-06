@@ -1,0 +1,96 @@
+#cources .cources{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0px auto;
+  padding: 100px;
+}
+
+.section-title{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: rgb(0,7,201);
+  text-align: center;
+  letter-spacing: .2rem;
+}
+
+#cources .cources-top .is_prg{
+  font-size: .4rem;
+  margin-top: 10px;
+  line-height: .8rem;
+  width: 80vw;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  right: 20vw;
+  display: none;
+}
+
+#cources .cources-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#cources .cources-items{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url(Background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  position: relative;
+  width: 90vw;
+  height: 180px;
+  margin: 20px 5%;
+  overflow: hidden;
+  transition: .3s;
+}
+
+#cources .cources-items::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #1a15b5;
+  opacity: .5;
+}
+
+#cources .cources-items:Hover{
+  box-shadow: 0px 0px 0px 8px 
+  rgb(100,30,230);
+  border-radius: 5px;
+}
+
+#cources .cources-items h2{
+  z-index: 2;
+  position: relative;
+  text-align: left;
+  border: 2px solid rgb(133,59,241);
+  padding: 4px;
+  text-transform: uppercase;
+  right: 25%;
+  margin-bottom: 4px;
+}
+
+#cources .cources-items p{
+  text-align: left;
+  z-index: 2;
+  font-weight: bold;
+}

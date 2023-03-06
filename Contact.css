@@ -1,0 +1,55 @@
+
+#Contact .Contact{
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+#Contact .section-title{
+  margin-bottom: 30px;
+}
+
+#Contact .Contact-items{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#Contact .Contact-item{
+  width: 80%;
+  height: 160px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15px 0px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 18px 0px 
+  rgb(130,10,210);
+  position: relative;
+  left: 10%;
+  transition: .2s;
+}
+
+#Contact .Contact-item:hover{
+  box-shadow: 0px 0px 4px 0px 
+  rgb(130,10,210);
+  width: 82%;
+  height: 175px;
+}
+  
+.icon img {
+  width: 70px;
+  height: 70px;
+  border-radius: 15px;
+  margin: 6px;
+}
+
+#Contact .Contact-item h1{
+  font-size: .9rem;
+}
+  
+#Contact .Contact-item h2{
+  font-size: .4rem;
+}
